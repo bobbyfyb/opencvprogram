@@ -22,8 +22,7 @@ static void on_GaussianBlur(int, void*);			//高斯滤波
 //main 函数
 int main()
 {
-	system("color5E");			//改变console字体颜色
-
+	
 	//载入原图
 	g_srcImage = imread("1.jpg", 1);
 	if (!g_srcImage.data) { cout << "读取源图片错误！\n" << endl; return false; }
